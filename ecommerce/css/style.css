@@ -1,0 +1,30 @@
+#hero::after{
+
+    content: '';
+    display: block;
+    
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* absolute ha bisogno di coordinate */
+
+    width: 100%;
+    max-height: max-content;
+    background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(251, 251, 255, 0.542454481792717) 55%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+#cardPro{
+    width: 100%;
+    height: auto;
+}
+img.card{
+    max-width: 50%;
+    height: auto;
+}
